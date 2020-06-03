@@ -1,0 +1,44 @@
+html,button,input{
+    font-family: 'Acme',sans-serif;
+}
+input{
+    padding:4px;
+    width:150px;
+}
+body{
+    margin:0;
+    min-width: 360px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header,footer{
+    line-height: 100px;
+    background-color: rgb(165, 77, 70);
+    color:whitesmoke;
+    text-align:center;
+    user-select: none;
+}
+
+.addTask, .updateTasks{
+    padding:20px;
+}
+
+.addTask{
+    background-color: rgb(228, 220, 220);
+}
+
+h1 {
+margin: 0;
+}
+
+.updateTasks h2{
+    background-color: rgb(228, 220, 220);
+    padding:5px;
+}
+
+ul {
+list-style-type: none;
+}
